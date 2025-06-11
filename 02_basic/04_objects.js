@@ -59,9 +59,9 @@ console.log(instructor)
 
 
 
-{
-    name:"Mohit",
-    courseName :"js in hindi",
-    price : "hindi"
-}
+// {
+//     name:"Mohit",
+//     courseName :"js in hindi",
+//     price : "hindi"
+// }
 
