@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Aur Code</title>
+</head>
+<body style="background-color: aliceblue;color: bisque;">
+    
+</body>
+
+<script>
+    const deiv = document.createElement('div');
+    console.log(deiv);
+    deiv.className ="main"
+    deiv.id = Math.random()*10+1;
+
+    deiv.setAttribute('title', 'This is a div');
+    deiv.style.backgroundColor = 'red';
+    deiv.style.padding = '10px';
+    deiv.innerText = 'Hello World';
+    const addText = document.createTextNode('This is a text node');
+    deiv.appendChild(addText);
+    document.body.appendChild(deiv);
+</script>
+</html>
