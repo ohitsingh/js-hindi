@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Aur Code | DOM </title>
+</head>
+<body style="background-color: bisque;color: rgb(37, 81, 119);">
+    <ul class="language">
+        <li class="lang">JavaScript</li>
+        <li class="lang">Python</li>
+        <li class="lang">Java</li>
+        <li class="lang">C++</li>
+    </ul>
+</body>
+
+<script>
+    function addLaungage(langName){
+        const li = document.createElement('li');
+        li.innerHTML=`${langName}`;
+        document.querySelector('.language').appendChild(li);    
+
+    }
+    addLaungage('C#');
+    addLaungage('Go');
+    addLaungage('Rust');
+    addLaungage('PHP');
+    addLaungage('Ruby');
+    addLaungage('Swift');
+    addLaungage('Kotlin');
+    addLaungage('TypeScript');
+    addLaungage('Dart');
+    addLaungage('Scala');
+    addLaungage('Perl');
+    addLaungage('Lua');
+    addLaungage('Haskell');
+    addLaungage('Elixir');
+    addLaungage('Clojure');
+        addLaungage('F#');
+    addLaungage('R');
+    addLaungage('MATLAB');
+    addLaungage('Julia');
+    addLaungage('Shell');
+    addLaungage('Visual Basic');
+
+
+    function addOptimisedLanguage(langName){
+        const li= document.createElement('li');
+        li.appendChild(document.createTextNode(langName));
+        document.querySelector('.language').appendChild(li);
+    }
+
+    addOptimisedLanguage('C');
+    addOptimisedLanguage('C++');
+    addOptimisedLanguage('C#');
+    addOptimisedLanguage('JavaScript');
+    addOptimisedLanguage('Go Language');
+
+    const secondlang = document.querySelector("li:nth-child(2)").style.color = "red";
+    secondlang.innerHTML = "Python is a great language";  
+    secondlang.replaceWith('li');
+    const thirdlang = document.querySelector("li:nth-child(3)");
+    thirdlang.style.color = "blue";
+    thirdlang.style.fontSize = "20px";
+    thirdlang.style.fontWeight = "bold";
+    thirdlang.innerHTML = "Java is a great language";
+    const fourthlang = document.querySelector("li:nth-child(4)");
+    fourthlang.style.color = "green";
+    fourthlang.style.fontSize = "20px";
+    fourthlang.style.fontWeight = "bold";  
+        
+
+</script>
+</html>
